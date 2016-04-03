@@ -1,0 +1,35 @@
+@startuml
+
+title  Activity Diagram  
+
+start
+:Let's start rock scissors paper gmae;
+if(rock)
+  if(scissors)
+  :win;
+  elseif(rock)
+  :draw;
+  elseif(paper)
+  :lose;
+  endif
+elseif(scissors)
+  if(scissors)
+  :draw;
+  elseif(rock)
+  :lose;
+  elseif(paper)
+  :win;
+  endif
+elseif(paper)
+  if(scissors)
+  :lose;
+  elseif(rock)
+  :win;
+  elseif(paper)
+  :draw;
+  endif
+endif
+:print result;
+stop
+
+@enduml
