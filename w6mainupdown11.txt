@@ -1,0 +1,13 @@
+%%plantuml
+@startuml
+start
+
+:This year is leap year??;
+if (year is divided by 4 and year is divided by 100 or divided by 400) then (correct)
+    :print "YES";
+else (non correct)
+    :print "NO";
+endif
+stop
+
+@enduml
