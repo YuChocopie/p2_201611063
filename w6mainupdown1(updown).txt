@@ -1,0 +1,22 @@
+@startuml
+start
+
+:man : Write your number(=a);
+:woman : Choose your playing chance(=x) and write your number(=b);
+
+while( )
+if (non a=b) then (a<b)
+:Up;
+else (a>b)
+:Down;
+endif
+endwhile
+:chance is over or a=b;
+if ( ) then (over chance)
+:End Game;
+else (a=b)
+:Ding~ Dong~ Dang~;
+endif
+ 
+
+:Game over;
