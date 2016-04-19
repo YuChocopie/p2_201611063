@@ -14,11 +14,10 @@ def drawSquareAt(size, pos):
     return tracks
 
 
-def drawSquareFrom(tracks):
+def drawSquareFrom():
     t1.penup()
     t1.home()
     t1.pendown()
-    tracks=dict()
     tracks=({0:(0,0),1:(50,0),2:(50,50),3:(0,50),4:(0,0)})
     
     for i in range(1,5):
@@ -26,19 +25,15 @@ def drawSquareFrom(tracks):
     for i in range(1,5):
         print tracks[i]
 
-def lap7a():
+def lap7():
     mytrack=drawSquareAt(100,(20,30))
     print mytrack
-    
-def lap7b():
-    drawSquareFrom(tracks)    
+    drawSquareFrom()    
 
 def main():
-    lap7a()
-    iap7b()
+    lap7()
 
 if __name__=="__main__":
     main()
 
 wn=raw_input()
-
