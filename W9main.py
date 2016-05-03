@@ -71,7 +71,7 @@ def lap9():
     you()
     together()
     All()
-    count
+    count()
 
 def main():
     lap9()
