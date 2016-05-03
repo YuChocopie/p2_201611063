@@ -46,6 +46,7 @@ myhome=set()
 yourhome=set()
 myhome={'TV','phone','camera','fridger','mixer','audio','cd','light','computer','notebook','recorder'}
 yourhome={'coffee','radio','camera','running machine','ramp','computer','notebook','recorder'}
+
 def my():
     print myhome.difference(yourhome)
 def you():
