@@ -67,6 +67,8 @@ def count():
             d[c]=1
         else :
             d[c]=d[c]+1
+    print d
+    print len(d)
 
 
 
