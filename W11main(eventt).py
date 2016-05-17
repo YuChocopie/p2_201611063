@@ -1,6 +1,7 @@
 ﻿import turtle
 wn=turtle.Screen()
 t1=turtle.Turtle()
+wn.bgpic("miro.GIF")
 import math
 def isInCircle(center,radius,pos):
     return 0<math.sqrt(math.pow(center[0]-pos[0],2) + math.pow(center[1]-pos[1],2))<radius
